@@ -9,21 +9,23 @@ body {
   --color-darkgray: #999;
   --color-aliceblue: #eceff6;
   --color-darkorange: #ff8500;
-  --color-wheat: #fadfb9;
   --color-gray-300: rgba(255, 255, 255, 0.35);
   --color-gray-200: rgba(0, 0, 0, 0.5);
   --color-gray-100: #340505;
-  --color-firebrick-200: #aa0e05;
-  --color-firebrick-100: #b31102;
   --color-maroon-300: #520000;
   --color-maroon-200: #660506;
   --color-maroon-100: #740100;
+  --color-blanchedalmond: #fff0d0;
+  --color-firebrick-300: #aa0e05;
+  --color-firebrick-200: #b31102;
+  --color-firebrick-100: #ad111b;
+  --color-wheat: #fadfb9;
   --Grey: #393738;
   --Black: #000;
-  --Chowking-Red: #da291c;
   --White: #fff;
-  --Chowking-Maroon: #7c2629;
   --Chowking-Yellow: #ffb81c;
+  --Chowking-Maroon: #7c2629;
+  --Chowking-Red: #da291c;
 
   /* Gap */
   --gap-5: 5px;
@@ -39,6 +41,7 @@ body {
 
   /* Padding */
   --padding-4: 4px;
+  --padding-5: 5px;
   --padding-6: 6px;
   --padding-8: 8px;
   --padding-10: 10px;
@@ -61,4 +64,8 @@ body {
   --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-30: 30px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
 }

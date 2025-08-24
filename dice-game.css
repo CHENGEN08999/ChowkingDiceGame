@@ -79,7 +79,7 @@
   left: calc(50% - 144.5px);
   border-radius: 999px;
   background-color: var(--color-maroon-200);
-  border: 6px solid var(--color-firebrick-200);
+  border: 6px solid var(--color-firebrick-300);
   box-sizing: border-box;
   z-index: 0;
 }
@@ -95,7 +95,7 @@
   top: calc(50% - 108.5px);
   left: calc(50% - 113.5px);
   border-radius: 999px;
-  background-color: var(--color-firebrick-100);
+  background-color: var(--color-firebrick-200);
   z-index: 1;
 }
 .dice-value-one {
@@ -152,7 +152,7 @@
   object-fit: contain;
   z-index: 7;
 }
-.dices {
+.dices8 {
   width: 289px;
   height: 289px;
   border-radius: 999px;
@@ -222,7 +222,7 @@
 .promo-code-sent {
   position: relative;
 }
-.title {
+.title1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -279,7 +279,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.prize-pool {
+.prize-pool2 {
   margin: 0 !important;
   position: absolute;
   top: calc(50% - 202px);
@@ -287,13 +287,13 @@
   border-radius: 0 var(--br-10) var(--br-10) 0;
   background-color: var(--color-gray-300);
   flex-direction: row;
-  padding: 5px var(--padding-20);
+  padding: var(--padding-5) var(--padding-20);
   gap: var(--gap-5);
   white-space: nowrap;
   z-index: 7;
 }
 .dice-game,
-.prize-pool,
+.prize-pool2,
 .term-conditions {
   display: flex;
   align-items: center;
