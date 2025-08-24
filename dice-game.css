@@ -222,7 +222,7 @@
 .promo-code-sent {
   position: relative;
 }
-.title1 {
+.title2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -294,12 +294,12 @@
 }
 .dice-game,
 .prize-pool2,
-.term-conditions {
+.term-conditions2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.term-conditions {
+.term-conditions2 {
   margin: 0 !important;
   position: absolute;
   top: calc(50% - 203px);

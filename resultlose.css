@@ -48,11 +48,11 @@
 .you-didnt-win {
   position: relative;
 }
-.title4,
-.title5 {
+.title5,
+.title6 {
   position: absolute;
 }
-.title5 {
+.title6 {
   top: 0;
   left: 0;
   border-radius: 900px;
@@ -67,7 +67,7 @@
   box-sizing: border-box;
   white-space: nowrap;
 }
-.title4 {
+.title5 {
   width: 246px;
   height: 30px;
   margin: 0 !important;

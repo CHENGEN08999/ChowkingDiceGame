@@ -160,11 +160,11 @@
   align-items: center;
 }
 .input-fields,
-.term-conditions2 {
+.term-conditions4 {
   display: flex;
   justify-content: flex-start;
 }
-.term-conditions2 {
+.term-conditions4 {
   width: 281px;
   flex-direction: row;
   align-items: center;

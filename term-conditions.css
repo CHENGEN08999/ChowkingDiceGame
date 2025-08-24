@@ -1,0 +1,88 @@
+.back-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10);
+}
+.iconlylightarrow-left-2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.back {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.term-conditions1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.header,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  border-radius: 0 var(--br-10) var(--br-10) 0;
+  justify-content: flex-start;
+  padding: var(--padding-5) var(--padding-20);
+}
+.header {
+  align-self: stretch;
+  height: 40px;
+  justify-content: space-between;
+  gap: 0;
+  text-align: left;
+  font-size: var(--font-size-20);
+  color: var(--color-wheat);
+  font-family: var(--font-sole-sans);
+}
+.terms-and-conditions {
+  margin: 0;
+}
+.eligibility {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-19);
+}
+.employees-of-chowking {
+  margin: 0;
+  font-family: var(--font-sole-sans);
+}
+.terms-and-conditions-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-14);
+  line-height: 24px;
+  color: var(--White);
+  text-align: left;
+  font-family: var(--font-sole-sans);
+}
+.term-conditions {
+  width: 100%;
+  height: 1124px;
+  position: relative;
+  background: linear-gradient(180deg, #510000, #750201 50%, #5d0000);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-20) var(--padding-16);
+  box-sizing: border-box;
+  gap: var(--gap-16);
+  line-height: normal;
+  letter-spacing: normal;
+}
