@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Color */
+  --color-darkgray: #999;
+  --color-aliceblue: #eceff6;
+  --Chowking-Maroon: #7c2629;
+  --Chowking-Yellow: #ffb81c;
+  --White: #fff;
+
+  /* Padding */
+  --padding-18: 18px;
+  --padding-20: 20px;
+
+  /* BorderRadius */
+  --br-10: 10px;
+
+  /* Font */
+  --font-sole-sans: Sole Sans;
+
+  /* FontSize */
+  --font-size-14: 14px;
+}

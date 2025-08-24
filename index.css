@@ -1,0 +1,239 @@
+.bg-details-icon {
+  width: 355px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% + 143px);
+  right: 0;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.bg-details2-icon {
+  width: 132px;
+  top: calc(50% - 127px);
+  right: 10px;
+  object-fit: cover;
+  z-index: 1;
+}
+.bg-details2-icon,
+.bg-details3-icon,
+.bg-details4-icon {
+  position: absolute;
+  margin: 0 !important;
+  max-height: 100%;
+}
+.bg-details3-icon {
+  width: 186.7px;
+  top: calc(50% + 16px);
+  left: -15px;
+  object-fit: contain;
+  z-index: 2;
+}
+.bg-details4-icon {
+  width: 75px;
+  top: calc(50% - 406px);
+  right: 5px;
+  object-fit: cover;
+  z-index: 3;
+}
+.moon-festival-dice-game2-1,
+.whiteck-icon {
+  width: 157px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.moon-festival-dice-game2-1 {
+  width: 300px;
+}
+.whiteck-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 16px;
+  gap: 20px;
+  z-index: 4;
+}
+.back-icon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 26px;
+  left: 26px;
+  z-index: 5;
+}
+.first-name1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-sole-sans);
+  font-size: var(--font-size-14);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 39px;
+  padding: 0;
+}
+.first-name {
+  align-self: stretch;
+  height: 56px;
+  border-radius: var(--br-10);
+  background-color: var(--White);
+  border: 1.5px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-18) var(--padding-20);
+}
+.email1,
+.last-name1,
+.phone-number {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-sole-sans);
+  font-size: var(--font-size-14);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 38px;
+  padding: 0;
+}
+.email1,
+.phone-number {
+  min-width: 20px;
+}
+.phone-number {
+  min-width: 53px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  background-color: var(--Chowking-Yellow);
+  width: 100%;
+  height: 100%;
+}
+.stroke-3-icon {
+  position: absolute;
+  height: 30%;
+  width: 45%;
+  top: 35%;
+  right: 25%;
+  bottom: 35%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangle-parent {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.grabs-term {
+  text-decoration: underline;
+}
+.i-agree-to-container1 {
+  width: 100%;
+}
+.i-agree-to-container {
+  width: 251px;
+  position: relative;
+  font-size: var(--font-size-14);
+  letter-spacing: 0.01em;
+  line-height: 23px;
+  font-family: var(--font-sole-sans);
+  color: var(--White);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.input-fields,
+.term-conditions {
+  display: flex;
+  justify-content: flex-start;
+}
+.term-conditions {
+  width: 281px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.input-fields {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+}
+.button,
+.start-game {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-game {
+  width: 124px;
+  position: relative;
+  font-size: 20px;
+  font-family: var(--font-sole-sans);
+  color: var(--Chowking-Maroon);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-20);
+  background-color: var(--Chowking-Yellow);
+  height: 56px;
+  border-radius: var(--br-10);
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.enter-details,
+.info,
+.info-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.info {
+  margin: 0;
+  align-self: stretch;
+  align-items: center;
+  gap: 31px;
+}
+.enter-details,
+.info-input {
+  box-sizing: border-box;
+}
+.enter-details {
+  width: 333px;
+  border-radius: var(--br-10);
+  align-items: flex-start;
+  padding: 24px var(--padding-20);
+  z-index: 6;
+}
+.info-input {
+  width: 100%;
+  height: 812px;
+  position: relative;
+  background: linear-gradient(180deg, #510000, #750201 50%, #5d0000);
+  overflow: hidden;
+  align-items: center;
+  padding: 52px 21px 80px;
+  gap: 32px;
+  line-height: normal;
+  letter-spacing: normal;
+}
