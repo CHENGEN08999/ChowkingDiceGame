@@ -5,22 +5,60 @@ body {
 
 :root {
   /* Color */
+  --color-lightsalmon: #f89774;
   --color-darkgray: #999;
   --color-aliceblue: #eceff6;
+  --color-darkorange: #ff8500;
+  --color-wheat: #fadfb9;
+  --color-gray-300: rgba(255, 255, 255, 0.35);
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-gray-100: #340505;
+  --color-firebrick-200: #aa0e05;
+  --color-firebrick-100: #b31102;
+  --color-maroon-300: #520000;
+  --color-maroon-200: #660506;
+  --color-maroon-100: #740100;
+  --Grey: #393738;
+  --Black: #000;
+  --Chowking-Red: #da291c;
+  --White: #fff;
   --Chowking-Maroon: #7c2629;
   --Chowking-Yellow: #ffb81c;
-  --White: #fff;
+
+  /* Gap */
+  --gap-5: 5px;
+  --gap-6: 6px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-12: 12px;
+  --gap-14: 14px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+  --gap-32: 32px;
+  --gap-64: 64px;
 
   /* Padding */
+  --padding-4: 4px;
+  --padding-6: 6px;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-14: 14px;
+  --padding-16: 16px;
   --padding-18: 18px;
   --padding-20: 20px;
+  --padding-24: 24px;
 
   /* BorderRadius */
+  --br-2: 2px;
+  --br-4: 4px;
   --br-10: 10px;
+  --br-15: 15px;
 
   /* Font */
   --font-sole-sans: Sole Sans;
 
   /* FontSize */
+  --font-size-12: 12px;
   --font-size-14: 14px;
+  --font-size-20: 20px;
 }

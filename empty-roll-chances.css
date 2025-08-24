@@ -1,0 +1,94 @@
+.overlay-black-bg2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 0;
+}
+.youve-used-your {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.make-another-purchase {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 23px;
+}
+.back-to-grab,
+.button1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-to-grab {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-20);
+  font-family: var(--font-sole-sans);
+  color: var(--Chowking-Maroon);
+  text-align: center;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-20);
+  background-color: var(--Chowking-Yellow);
+  height: 56px;
+  border-radius: var(--br-10);
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.empty-roll-chances,
+.empty-roll-chances1,
+.info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.info1 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 31px;
+  font-size: var(--font-size-14);
+  color: var(--Grey);
+}
+.empty-roll-chances,
+.empty-roll-chances1 {
+  box-sizing: border-box;
+}
+.empty-roll-chances1 {
+  width: 333px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 121px);
+  left: calc(50% - 166.5px);
+  border-radius: var(--br-10);
+  background-color: var(--White);
+  align-items: flex-start;
+  padding: var(--padding-24) var(--padding-20);
+  gap: var(--gap-20);
+  z-index: 1;
+  text-align: left;
+  font-size: 24px;
+  color: var(--Black);
+  font-family: var(--font-sole-sans);
+}
+.empty-roll-chances {
+  width: 100%;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  padding: 52px var(--padding-24) 68px;
+  gap: var(--gap-64);
+  line-height: normal;
+  letter-spacing: normal;
+}
